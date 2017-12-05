@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# config files including host name and passwords
+config.js
+.remote-sync.json

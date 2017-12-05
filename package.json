@@ -1,0 +1,35 @@
+{
+  "name": "mqtt-weatherstation",
+  "version": "1.0.0",
+  "description": "MQTT wrapper for IP-capable weather stations (e.g. Froggit WH-2600, AmbientWeather WS-1400 IP)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigne/mqtt-weatherstation.git"
+  },
+  "keywords": [
+    "mqtt",
+    "weatherstation",
+    "smarthome"
+  ],
+  "author": "Ralph Vigne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigne/mqtt-weatherstation/issues"
+  },
+  "homepage": "https://github.com/vigne/mqtt-weatherstation#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "clone": "^2.1.1",
+    "convert-units": "^2.3.1",
+    "express": "^4.16.2",
+    "mqtt": "^2.14.0",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0",
+    "winston": "^2.4.0"
+  }
+}
